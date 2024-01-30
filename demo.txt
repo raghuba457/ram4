@@ -1,0 +1,169 @@
+#!/bin/bash
+
+git checkout -b branch1
+touch file{1..10}
+git add .
+git commit -m "msg" file1
+git commit -m "msg" file2
+git commit -m "msg" file3
+git commit -m "msg" file4
+git commit -m "msg" file5
+git commit -m "msg" file6
+git commit -m "msg" file7
+git commit -m "msg" file8
+git commit -m "msg" file9
+git commit -m "msg" file10
+git checkout master
+git merge branch1
+
+
+git checkout -b branch2
+touch file{11..20}
+git add .
+git commit -m "msg" file11
+git commit -m "msg" file12
+git commit -m "msg" file13
+git commit -m "msg" file14
+git commit -m "msg" file15
+git commit -m "msg" file16
+git commit -m "msg" file17
+git commit -m "msg" file18
+git commit -m "msg" file19
+git commit -m "msg" file20
+git checkout master
+git merge branch2
+
+
+
+git checkout -b branch3
+touch file{21..30}
+git add .
+git commit -m "msg" file21
+git commit -m "msg" file22
+git commit -m "msg" file23
+git commit -m "msg" file24
+git commit -m "msg" file25
+git commit -m "msg" file26
+git commit -m "msg" file27
+git commit -m "msg" file28
+git commit -m "msg" file29
+git commit -m "msg" file30
+git checkout master
+git merge branch3
+
+
+git checkout -b branch4
+touch file{31..40}
+git add .
+git commit -m "msg" file31
+git commit -m "msg" file32
+git commit -m "msg" file33
+git commit -m "msg" file34
+git commit -m "msg" file35
+git commit -m "msg" file36
+git commit -m "msg" file37
+git commit -m "msg" file38
+git commit -m "msg" file39
+git commit -m "msg" file40
+git checkout master
+git merge branch4
+
+
+git checkout -b branch5
+touch file{41..50}
+git add .
+git commit -m "msg" file41
+git commit -m "msg" file42
+git commit -m "msg" file43
+git commit -m "msg" file44
+git commit -m "msg" file45
+git commit -m "msg" file46
+git commit -m "msg" file47
+git commit -m "msg" file48
+git commit -m "msg" file49
+git commit -m "msg" file50
+git checkout master
+git merge branch5
+
+git checkout -b branch6
+touch file{51..60}
+git add .
+git commit -m "msg" file51
+git commit -m "msg" file52
+git commit -m "msg" file53
+git commit -m "msg" file54
+git commit -m "msg" file55
+git commit -m "msg" file56
+git commit -m "msg" file57
+git commit -m "msg" file58
+git commit -m "msg" file59
+git commit -m "msg" file60
+git checkout master
+git merge branch6
+
+git checkout -b branch7
+touch file{61..70}
+git add .
+git commit -m "msg" file61
+git commit -m "msg" file62
+git commit -m "msg" file63
+git commit -m "msg" file64
+git commit -m "msg" file65
+git commit -m "msg" file66
+git commit -m "msg" file67
+git commit -m "msg" file68
+git commit -m "msg" file69
+git commit -m "msg" file70
+git checkout master
+git merge branch7
+
+git checkout -b branch8
+touch file{71..80}
+git add .
+git commit -m "msg" file71
+git commit -m "msg" file72
+git commit -m "msg" file73
+git commit -m "msg" file74
+git commit -m "msg" file75
+git commit -m "msg" file76
+git commit -m "msg" file77
+git commit -m "msg" file78
+git commit -m "msg" file79
+git commit -m "msg" file80
+git checkout master
+git merge branch8
+
+git checkout -b branch9
+touch file{81..90}
+git add .
+git commit -m "msg" file81
+git commit -m "msg" file82
+git commit -m "msg" file83
+git commit -m "msg" file84
+git commit -m "msg" file85
+git commit -m "msg" file86
+git commit -m "msg" file87
+git commit -m "msg" file88
+git commit -m "msg" file89
+git commit -m "msg" file90
+git checkout master
+git merge branch9
+
+git checkout -b branch10
+touch file{91..100}
+git add .
+git commit -m "msg" file91
+git commit -m "msg" file92
+git commit -m "msg" file93
+git commit -m "msg" file94
+git commit -m "msg" file95
+git commit -m "msg" file96
+git commit -m "msg" file97
+git commit -m "msg" file98
+git commit -m "msg" file99
+git commit -m "msg" file100
+git checkout master
+git merge branch10
+
+
+
